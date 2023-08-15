@@ -75,10 +75,25 @@ c.NotebookApp.notebook_dir = 'jupyter_contain'     # 设置Jupyternotebook 打�
 
 ```
 
-- 打开`jupyter notebook`，访问链接：
+- 在Linux控制台输入命令启动服务：
 
 ```
-[I 23:42:19.277 NotebookApp] http://172.29.71.103:8888/
+jupyter notebook --allow-root --no-browser --port=80 --ip=0.0.0.0
+```
+
+# 4 问题
+
+- 已经挂载了服务但是无法访问？
+
+
+
+# 5 git
+
+```
+git add .
+git commit -m "first"
+git status
+git push -u origin main
 ```
 
 
@@ -87,7 +102,7 @@ c.NotebookApp.notebook_dir = 'jupyter_contain'     # 设置Jupyternotebook 打�
 ---
 
 
-#### 计算机
+## 计算机行业
 算法(5%) - AI
 
 web, exe（本质上是一样的）
@@ -107,12 +122,14 @@ ac - 前端 scanner, interpreter
     - 后端 --> x86_64, arm
 
 
-#### 其他（无人机、车机、手表、嵌入式）
-杂 - fpga
+## 其他行业
+杂（无人机、车机、手表、嵌入式） - fpga
 
 
+---
 
-写论文：
+
+## 写论文
 1. word (富文本编辑器：国内普刊)
 2. markdown (富文本标记语言：记笔记)
 3. latex （富文本标记语言：专业写论文：外刊）
