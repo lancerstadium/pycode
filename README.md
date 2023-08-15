@@ -91,9 +91,9 @@ jupyter notebook --allow-root --no-browser --port=80 --ip=0.0.0.0
 
 ```
 git add .
-git commit -m "first"
+git commit -m "2"
 git status
-git push -u origin main
+git push origin main
 ```
 
 
