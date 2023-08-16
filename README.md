@@ -85,7 +85,7 @@ jupyter notebook --allow-root --no-browser --port=80 --ip=0.0.0.0
 
 - 已经挂载了服务但是无法访问？
 
-
+- 如何解决？
 
 # 5 git
 
